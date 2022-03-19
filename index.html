@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+  </style>
+
+</head>
+
+<body>
+  <header>
+
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand">Nabin Lamichhane</a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Menu
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100072846362800">Facebook</a>
+              <a class="dropdown-item" href="https://www.instagram.com/nlamichhane1/">Instagram</a>
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="contain">
+
+
+      <img src="assets/css/img/ujwal1.jpg" alt="hawa" style="width:100%;">
+
+      <div class="centered">
+        <h1> Welcome to my Personal Blog</h1>
+        <p1> I am a Learner.</p1>
+
+      </div>
+    </div>
+    <div class="container-fluid aboutme-section">
+      <h2>About Me</h2>
+      <div class="row h-100">
+        <div class="col-md-8 col-12 my-auto aboutmea-section ">Enthusiastic, highly driven Information Technology student with proven
+          leadership capabilities who enjoys taking the initiative and pursuing new challenges. Highly involved in
+          Social Work through various organizations and awarded with different awards for being active and inspiring
+          others to do better work.
+        </div>
+        <div class="col-md-4 col-12 ">
+          <img src="assets/css/img/nabin.jpg" alt="about me" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="container-fluid myblogs-section">
+      <h2>My Blogs</h2>
+      <div class="row">
+        <div class="col-md-4 col-12 bg-medium grid-section">
+          <div class="thumbnail">
+
+            <img src="assets/css/img/3.png" alt="Lights" style="width:100%">
+            <div class="caption">
+              <p>Sunset seen from tandi.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-12 bg-medium grid-section">
+          <div class="thumbnail">
+
+            <img src="assets/css/img/2.png" alt="Lights" style="width:100%">
+            <div class="caption">
+              <p>Small Heaven Model School.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4 col-12 bg-medium grid-section">
+          <div class="thumbnail">
+
+            <img src="assets/css/img/1.png" alt="Lights" style="width:100%">
+            <div class="caption">
+              <p>National Flag of Nepal.</p>
+            </div>
+
+
+          </div>
+
+  </section>
+  <footer>
+
+    <div class="footer-top-info container-fluid">
+           
+        </div>
+        <div class="footer-bottom-info container-fluid" id="contact-me">
+            <div class="contact-me-section">
+                <h2> Contact Me</h2>
+                <div class="row">
+                    <div class="col-md-7 col-12 mb-4">
+                        <div class="row address-content">
+                            <div class="col-md-6 col-12">
+                                <p>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i> <br />
+                                    Canberra, Australia
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <p>
+                                    <i class="fa fa-phone" aria-hidden="true"></i> <br />
+                                    0123456789
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <p>
+                                    <i class="fa fa-mobile" aria-hidden="true"></i> <br />
+                                    567543
+                                </p>
+
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i> <br />
+                                    testwebsite@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 col-12 mb-4">
+                        <div class="contact-form-content">
+                            <form name="myform" onsubmit="validateform()">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter fullname" id="name" name="fullname">
+                                    <p id="fullname-error-msg" class="text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Enter email" id="email" name="email">
+                                    <p id="email-error-msg" class="text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="5"  placeholder="Enter message" id="message" name="message"></textarea>
+                                    <p id="message-error-msg" class="text-danger"></p>
+                                </div>
+                                <input type="submit" value="Submit" class="btn btn-primary btn-block">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright-content">
+                <p> Copyright Nabin Lamichhane</p>
+            </div>
+        </div>
+
+    </footer>
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

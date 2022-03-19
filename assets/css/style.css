@@ -1,0 +1,139 @@
+.navbar{
+
+    padding: 20px;
+}
+
+.nav-item :hover{
+    background-color: aqua;
+
+}
+
+/* Container holding the image and the text */
+.contain {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+
+  
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(43, 122, 226);
+    padding: 20px;
+  }
+
+
+  .aboutme-section {
+    padding: 40px 80px;
+}
+  
+.aboutme-section h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutmea-section{
+    text-align: center;
+    
+}
+
+.myblogs-section h2{
+    
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
+
+.footer-top-info a {
+    color: white;
+    font-size: 32px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-bottom-info {
+    padding: 30px 20px 20px 20px;
+    background-color: #343a3f;
+    color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+
+
+div {
+    display: block;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.copyright-content{
+    text-align: center;
+}
+
+.contact-me-section{
+    text-align: center
+    
+}
+.h2, h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
